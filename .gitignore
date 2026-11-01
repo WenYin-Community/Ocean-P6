@@ -1,0 +1,10 @@
+# Local tool state
+.workbuddy/
+
+# Local theme overrides
+theme.conf.user
+
+# Editor and OS files
+*.swp
+*.bak
+.DS_Store
