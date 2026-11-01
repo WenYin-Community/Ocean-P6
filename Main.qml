@@ -137,7 +137,7 @@ Item {
                     return text
                 }
 
-                onLoginRequest: root.tryLogin(username, password)
+                onLoginRequest: (username, password) => root.tryLogin(username, password)
             }
 
             Behavior on opacity {
@@ -165,7 +165,7 @@ Item {
                     }
                 }
 
-                onLoginRequest: root.tryLogin(username, password)
+                onLoginRequest: (username, password) => root.tryLogin(username, password)
             }
         }
 
